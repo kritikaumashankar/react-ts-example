@@ -10,7 +10,7 @@ function App(){
 
   return (
     <>
-      <Heading title={"Kritika"}/>
+      <Heading title={"Kritika Uma Shankar"}/>
       <Section title={"Diff Title"}>This is my section</Section>
       <Counter setCount={setCount}> Count is {count}</Counter>
       <List items={["coffee","tacos","code"]} render={(item: string) => <span>{item}</span>} />
